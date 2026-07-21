@@ -1,0 +1,40 @@
+{
+  "selected_model": "ARIMAX(1, 0, 1)",
+  "selection_metric": "Test RMSE",
+  "selected_model_rmse": 1.7447698905358948,
+  "arimax_order": [
+    1,
+    0,
+    1
+  ],
+  "arimax_test_metrics": {
+    "MAE": 1.3675361395596406,
+    "RMSE": 1.7447698905358948,
+    "R2": 0.38973065558254916,
+    "sMAPE_percent": 27.401625319583168
+  },
+  "xgboost_test_metrics": {
+    "MAE": 1.4111994337347766,
+    "RMSE": 1.775661666450878,
+    "R2": 0.3679292738244303,
+    "sMAPE_percent": 28.449914477732413
+  },
+  "persistence_test_metrics": {
+    "MAE": 1.5399990394160583,
+    "RMSE": 2.108498145228815,
+    "R2": 0.10876612510816941,
+    "sMAPE_percent": 31.32887084697011
+  },
+  "arimax_improvement_over_persistence_percent": 17.250584522257117,
+  "xgboost_improvement_over_persistence_percent": 15.785476479127642,
+  "xgboost_parameters": {
+    "max_depth": 3,
+    "learning_rate": 0.03,
+    "min_child_weight": 5,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 0.1,
+    "reg_lambda": 5.0
+  },
+  "xgboost_number_of_trees": 89
+}

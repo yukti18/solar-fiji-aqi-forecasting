@@ -1,0 +1,7 @@
+dataset,file,purpose,status
+NASA POWER weather and solar,suva_weather_solar.csv,Historical weather and solar variables,Existing historical dataset
+CAMS EAC4 PM2.5,cams_suva_pm25_2021-2024.nc,Historical modelled PM2.5,Existing historical dataset
+Historical merged dataset,solar_fiji_suva_merged_daily.csv,Historical analysis and benchmark modelling,Ready
+Old modelling dataset,solar_fiji_suva_model_dataset.csv,Reference for previous ARIMAX/XGBoost/LSTM experiment,Archive
+Live air-quality forecast,live_air_quality.csv,"Current PM2.5, PM10 and AQI forecasts",To create
+Live weather forecast,live_weather.csv,Current weather and solar conditions,To create

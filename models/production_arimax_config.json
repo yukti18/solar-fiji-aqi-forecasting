@@ -1,0 +1,35 @@
+{
+  "order": [
+    1,
+    0,
+    1
+  ],
+  "exogenous_columns": [
+    "temperature_mean_c",
+    "relative_humidity_pct",
+    "precipitation_mm",
+    "wind_speed_10m_m_s",
+    "surface_pressure_kpa",
+    "shortwave_radiation_kwh_m2_day",
+    "wind_direction_sin",
+    "wind_direction_cos",
+    "wet_season",
+    "month_sin",
+    "month_cos",
+    "day_of_year_sin",
+    "day_of_year_cos"
+  ],
+  "test_metrics": {
+    "MAE": 1.3675361395596406,
+    "RMSE": 1.7447698905358948,
+    "R2": 0.38973065558254916,
+    "sMAPE_percent": 27.401625319583168
+  },
+  "persistence_metrics": {
+    "MAE": 1.5399990394160583,
+    "RMSE": 2.108498145228815,
+    "R2": 0.10876612510816941,
+    "sMAPE_percent": 31.32887084697011
+  },
+  "improvement_over_persistence_percent": 17.250584522257117
+}

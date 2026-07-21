@@ -1,0 +1,15 @@
+column,available_historical,available_live,usable_for_live_model
+available_weather_hours,True,True,True
+date,True,True,True
+precipitation_mm,True,True,True
+relative_humidity_pct,True,True,True
+shortwave_radiation_kwh_m2_day,True,True,True
+shortwave_radiation_mean_w_m2,True,True,True
+surface_pressure_hpa,True,True,True
+surface_pressure_kpa,True,True,True
+temperature_max_c,True,True,True
+temperature_mean_c,True,True,True
+temperature_min_c,True,True,True
+weather_data_status,True,True,True
+wind_direction_10m_deg,True,True,True
+wind_speed_10m_m_s,True,True,True
