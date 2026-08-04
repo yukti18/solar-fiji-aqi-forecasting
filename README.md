@@ -89,7 +89,7 @@ The model showed improved prediction capability compared with the baseline appro
 
 XGBoost was also used as an explanatory model to identify the environmental factors influencing predictions.
 
-![Model Comparison](images/model_comparison.png)
+![Model Comparison](images/model_comparisoin.png)
 
 ---
 
